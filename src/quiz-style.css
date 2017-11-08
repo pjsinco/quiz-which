@@ -1,0 +1,130 @@
+#quiz input[type=radio] {
+  display: inline-block;
+  margin-bottom: 0!important;
+  margin-right: .5rem;
+  position: relative;
+  top: 3px;
+  margin-right: 6px;
+  vertical-align: top
+}
+
+@media screen and (min-width:768px) {
+  #quiz input[type=radio] {
+    top: 6px
+  }
+}
+
+#quiz [v-cloak] {
+  display: none
+}
+
+#quiz .quiz-nav {
+  margin-bottom: 2rem;
+  text-align: center
+}
+
+#quiz ul {
+  margin-bottom: 2rem;
+  list-style-type: none
+}
+
+#quiz li:hover {
+  /*margin-left: -1rem;*/
+  /*margin-bottom: 0;*/
+  /*padding: .5rem 1rem;*/
+  /*background-color: #f5f5f5;*/
+  /*cursor: pointer;*/
+}
+
+#quiz li.highlight {
+  /*animation: highlight .5s;*/
+}
+
+#quiz .progress {
+  margin: 0 auto;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 290486px;
+  display: block;
+  height: 1rem;
+  overflow: hidden;
+  padding: 0;
+  width: 50%
+}
+
+#quiz .progress:not(:last-child) {
+  margin-bottom: 1.5rem
+}
+
+#quiz .progress::-webkit-progress-bar {
+  background-color: #dbdbdb
+}
+
+#quiz .progress::-webkit-progress-value {
+  background-color: #ef3f23
+}
+
+#quiz .progress::-moz-progress-bar {
+  background-color: #ef3f23
+}
+
+#quiz .progress.is-small {
+  height: .75rem
+}
+
+#quiz .progress.is-medium {
+  height: 1.25rem
+}
+
+#quiz .progress.is-large {
+  height: 1.5rem
+}
+
+#quiz .progress-report {
+  margin-bottom: .5rem;
+  opacity: .5
+}
+
+#quiz .quiz-results h3 {
+  color: #ef3f23;
+  margin-bottom: .25rem;
+  font-weight: 400
+}
+
+#quiz .quiz-results p {
+  font-weight: 200;
+  font-size: 2em;
+  line-height: 1.25
+}
+
+#quiz .quiz-results p>span {
+  color: #ef3f23
+}
+
+#quiz label>span {
+  display: inline-block;
+  width: 80%
+}
+
+#quiz .question-enter-active, 
+#quiz .question-leave-active {
+  transition: all .5s;
+}
+
+#quiz .question-enter,
+#quiz .question-leave-to {
+  opacity: 0;
+}
+
+
+
+@keyframes highlight {
+  0% {
+    background-color: rgba(239, 63, 35, .38);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
