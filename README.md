@@ -1,4 +1,4 @@
-# olsen-quiz
+# quiz-which
 
 > Quiz for The DO
 
